@@ -30,15 +30,22 @@ document.getElementById("ppt").onclick = () => {
     window.open("https://www.office.com/launch/powerpoint?auth=2");
 }
 
-document.getElementById("office-img").onclick = () => {
+document.getElementById("office-btn").onclick = () => {
     window.open("https://www.office.com");
 }
 
-document.getElementById("google-img").onclick = () => {
+document.getElementById("google-btn").onclick = () => {
     window.open("https://www.google.ca");
 }
 
-document.getElementById("uwaterloo-img").onclick = () => {
+document.getElementById("uwaterloo-btn").onclick = () => {
     window.open("https://www.uwaterloo.ca");
 }
 
+document.getElementById("stackoverflow-btn").onclick = () => {
+    window.open("https://www.stackoverflow.com");
+}
+
+document.getElementById("github-btn").onclick = () => {
+    window.open("https://www.github.com");
+}

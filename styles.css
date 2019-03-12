@@ -6,13 +6,25 @@
     cursor: pointer;
 }
 
+#github-img, #github-btn {
+    height: 176px;
+}
+#stackoverflow-btn {
+    height: inherit;
+    width: inherit;
+}
+
+.collumn {
+    margin-right: 10px;
+}
+
 .collumn {
     float: left;
 }
 
 .section-head {
-    height: 50px;
-    width: 150px;
+    height: 70px;
+    width: 170px;
 }
 
 .link {
